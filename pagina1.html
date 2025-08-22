@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Vuelos</title>
+</head>
+<body>
+    <h1>Compañía Argentina</h1>
+    <h2>Gestión de Vuelos</h2>
+
+    <nav>
+            <a href="#">Registrar usuario</a>
+            <a href="#">Consultar vuelos disponibles / Reservar</a>
+            <a href="#">Ver reservas realizadas</a>
+            <a href="#">Eliminar reservas realizadas</a>
+        
+    </nav>
+
+    <h3>Consultar Vuelos Disponibles</h3>
+    <form action="pagina2.html" method="get">
+        <label for="origen">Origen:</label>
+        <select id="origen" name="origen" required>
+            <option value="">Seleccione</option>
+            <option value="cordoba">Cordoba</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="tucuman">Tucuman</option>
+        </select>
+        <br><br>
+
+        <label for="destino">Destino:</label>
+        <select id="destino" name="destino" required>
+            <option value="">Seleccione</option>
+            <option value="cordoba">Cordoba</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="tucuman">Tucuman</option>
+        </select>
+        <br><br>
+
+        <label for="fecha">Fecha de vuelo:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <br><br>
+
+        <input type="submit" value="Buscar">
+        <input type="reset" value="Cancelar">
+    </form>
+
+    <footer>
+        <p>Sitio Oficial de Compañía Argentina - 2025</p>
+    </footer>
+</body>
+</html>
