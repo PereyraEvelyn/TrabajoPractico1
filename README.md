@@ -1,4 +1,4 @@
--TRABAJO PRACTICO N° 1-
+-TRABAJO PRACTICO N° 2 CSS y BOOTSTRAP-
 
 Alumno: Pereyra Evelyn Micaela
 
