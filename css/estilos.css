@@ -1,0 +1,79 @@
+
+
+/*Selectores de clase*/
+
+.navbar {
+  background-color: #5dc7f4 !important; /* celeste */
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;          /* un poquito más marcado */
+}
+
+
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: .5rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+background-color: rgba(255, 255, 255, 0.25);
+  border-radius: .5rem;
+  color: #ffffff !important;
+  font-weight: 500;    
+}
+
+
+.card {
+  transition: transform .2s, box-shadow .2s; 
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 .75rem 1.25rem rgba(0,0,0,.10);
+}
+
+
+
+
+
+/*Selectores de etiqueta*/
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+h1, h2, h3 {                
+  color: #0b2941;          
+}
+
+footer{
+    background-color: #5dc7f4 !important; 
+}
+
+footer p{
+     color: #ffffff !important;
+    font-weight: 500;    
+}
+
+
+
+
+
+
+/*Selectores de ID*/
+
+#menu_drop{
+    background-color: #5dc7f4 !important; 
+    
+}
+
+#btn-buscar{
+     background-color: #5dc7f4 !important; 
+    border-color: #5dc7f4;
+}
+
+#btn-buscar:hover{
+    background-color: #4cb4e1 !important; 
+}
+
